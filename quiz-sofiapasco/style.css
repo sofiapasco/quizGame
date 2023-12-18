@@ -1,0 +1,210 @@
+body{
+    background-color:rgb(181, 207, 227)
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#images{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#alternativ{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.btn-alt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 180px;
+    height: 150px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+#startKnapp {
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px; 
+    display: block;
+    margin-top: 10px;
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block; 
+    padding-top: 10px;   
+    
+}
+
+#antalStudenter {
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+#resultat{
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+#valStudent {
+    margin-bottom: 20px; 
+    margin-left: 20px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+
+/* Stilmall för layout 1 */
+@media screen and (min-width: 380px) {
+        #resultat{
+            font-size: 16px;
+        
+        }
+        #antalStudenter {
+            padding: 2px;
+            font-size: 12px;
+        }
+
+        #startKnapp {
+            padding: 8px 10px;
+            font-size: 11px;
+        }
+
+        label{
+        font-size: 14px;
+  
+         }
+
+        h1{
+            font-size: 25px;
+  
+        }
+
+        #quizImage{
+            width: 300px;
+            height: 300px;
+        }
+
+        #alternativ {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .btn-alt {
+            width: 100%;
+            height: auto;
+            margin: 5px; 
+        }
+    
+    }
+
+
+/* Stilmall för layout 2 */
+@media screen and (min-width: 768px) {
+    #resultat{
+        font-size: 20px;
+    }
+
+    #antalStudenter {
+        padding: 4px;
+        font-size: 13px;
+    }
+
+    #startKnapp {
+        padding: 8px 10px;
+        font-size: 15px;
+     }
+
+    label{
+    font-size: 17px;
+
+    }
+     h1{
+        font-size: 35px;
+
+    }
+
+    #quizImage{
+        width: 400px;
+        height: 400px;
+    }
+
+    #alternativ {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .btn-alt {
+        width: 50%;
+        margin: 5px;
+        height: auto; 
+    }
+}
+
+/* Stilmall för layout 3 */
+@media screen and (min-width: 1024px) {
+
+        #resultat{
+            font-size: 40px;
+        }
+      
+        label{
+        font-size: 23px;
+       }
+      #startKnapp {
+            padding: 8px 10px;
+            font-size: 17px;
+          
+        }
+
+        .btn-alt {
+            width: 50%; 
+            margin: 40px;
+            height: 80px; 
+        }
+     
+        h1{
+            font-size: 45px;
+    
+        }
+    
+}
